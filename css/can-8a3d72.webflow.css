@@ -1,0 +1,96 @@
+.spline-scene {
+  width: 100%;
+  display: flex;
+}
+
+.div {
+  width: 100%;
+}
+
+.body {
+  background-color: #ffeed7;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.nav-bar {
+  border-radius: 40px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px 12px;
+  padding: 16px 0;
+  display: flex;
+}
+
+.tarragon {
+  color: #000;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.frame-26883 {
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.text {
+  color: #272727;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.icons {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.vectors-wrapper {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.can-session {
+  flex-direction: column;
+  display: flex;
+}
+
+.spline-scene-2 {
+  flex-direction: column;
+  flex: 0 auto;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+}
+
+@media screen and (min-width: 1280px) {
+  .div {
+    width: 110%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .div {
+    width: 120%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .div {
+    width: 100%;
+  }
+}
